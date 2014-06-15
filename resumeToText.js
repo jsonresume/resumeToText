@@ -9,6 +9,4 @@ function resumeToText(resumeObject, callback) {
     callback(resumeTXT);
 }
 
-module.exports = {
-    resumeToText: resumeToText
-};
+module.exports = resumeToText;
