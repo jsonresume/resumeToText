@@ -1,22 +1,23 @@
 {
-    "name": "resume-to-text",
-    "version": "0.0.7",
-    "description": "resumes ======= http://microformats.org/wiki/hresume",
-    "main": "resumeToText.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/rolandnsharp/resumeToText.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/rolandnsharp/resumeToText/issues"
-    },
-    "homepage": "https://github.com/rolandnsharp/resumeToText",
-    "dependencies": {
-        "mustache": "^0.8.1"
-    }
+  "name": "resume-to-text",
+  "version": "0.0.8",
+  "description": "resumes ======= http://microformats.org/wiki/hresume",
+  "main": "resumeToText.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rolandnsharp/resumeToText.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolandnsharp/resumeToText/issues"
+  },
+  "homepage": "https://github.com/rolandnsharp/resumeToText",
+  "dependencies": {
+    "mustache": "^0.8.1",
+    "resume-to-html": "0.0.5"
+  }
 }

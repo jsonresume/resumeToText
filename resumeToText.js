@@ -1,10 +1,19 @@
 var fs = require('fs');
 var Mustache = require('mustache');
 var path = require('path');
+var resumeToHTML = require('resume-to-html');
+var htmlToText = require('html-to-text');
 
-var resumeTemplate = fs.readFileSync(path.resolve(__dirname, 'layout.template'), 'utf8');
 
 function resumeToText(resumeObject, callback) {
+	resumeToHTML(resumeObject, function(html, errs){
+		if(!errs) {
+			var text = htmlToText.fromString(html, {wordwrap: 130});
+			callback(text, null);
+		} else {
+			callback(null, errs);
+		}
+	});
     var resumeTXT = Mustache.render(resumeTemplate, resumeObject);
     callback(resumeTXT);
 }
