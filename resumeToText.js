@@ -14,8 +14,6 @@ function resumeToText(resumeObject, callback) {
 			callback(null, errs);
 		}
 	});
-    var resumeTXT = Mustache.render(resumeTemplate, resumeObject);
-    callback(resumeTXT);
 }
 
 module.exports = resumeToText;
