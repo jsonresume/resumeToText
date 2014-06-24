@@ -1,6 +1,6 @@
 {
   "name": "resume-to-text",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "resumes ======= http://microformats.org/wiki/hresume",
   "main": "resumeToText.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rolandnsharp/resumeToText",
   "dependencies": {
+    "html-to-text": "0.0.8",
     "mustache": "^0.8.1",
     "resume-to-html": "0.0.5"
   }
