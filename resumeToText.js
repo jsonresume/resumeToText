@@ -6,7 +6,7 @@ var htmlToText = require('html-to-text');
 
 
 function resumeToText(resumeObject, callback) {
-	resumeToHTML(resumeObject, function(html, errs){
+	resumeToHTML(resumeObject, {}, function(html, errs){
 		if(!errs) {
 			var text = htmlToText.fromString(html, {wordwrap: 130});
 			callback(text, null);
