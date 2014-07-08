@@ -8,7 +8,7 @@ var htmlToText = require('html-to-text');
 function resumeToText(resumeObject, callback) {
 	resumeToHTML(resumeObject, {}, function(html, errs){
 		if(!errs) {
-			var text = htmlToText.fromString(html, {wordwrap: 130});
+			var text = htmlToText.fromString(html, {wordwrap: 80});
 			callback(text, null);
 		} else {
 			callback(null, errs);
