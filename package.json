@@ -17,13 +17,13 @@
   },
   "homepage": "https://github.com/rolandnsharp/resumeToText",
   "dependencies": {
-    "html-to-text": "1.4.0",
-    "mustache": "^2.0.0",
+    "html-to-text": "1.5.1",
+    "mustache": "^2.2.1",
     "resume-to-html": "latest"
   },
   "devDependencies": {
-    "tap-spec": "^4.1.0",
-    "tape": "^4.0.0"
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2"
   },
   "engines": {
     "node": ">=0.10"
