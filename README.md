@@ -6,7 +6,7 @@ resumes
 [![devDependencies Status](https://david-dm.org/jsonresume/resumeToText/dev-status.svg)](https://david-dm.org/jsonresume/resumeToText?type=dev)
 [![Greenkeeper badge](https://badges.greenkeeper.io/jsonresume/resumeToText.svg)](https://greenkeeper.io/)
 
-http://microformats.org/wiki/hresume
+http://microformats.org/wiki/h-resume
 
 
 ## Getting started
