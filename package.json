@@ -18,7 +18,7 @@
   "homepage": "https://github.com/rolandnsharp/resumeToText",
   "dependencies": {
     "html-to-text": "3.3.0",
-    "mustache": "^2.2.1",
+    "mustache": "^3.0.2",
     "resume-to-html": "latest"
   },
   "devDependencies": {
