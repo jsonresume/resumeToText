@@ -1,6 +1,6 @@
 {
   "name": "resume-to-text",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "resumes ======= http://microformats.org/wiki/hresume",
   "main": "resumeToText.js",
   "scripts": {
